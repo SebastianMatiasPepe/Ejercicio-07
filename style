@@ -1,0 +1,20 @@
+button:before {
+    content: "Pasa por encima" ;
+    
+}
+button:hover:before{
+  
+    opacity: 0;
+}
+button:hover{
+      color: white;
+    background-color: green;
+}
+button:after{
+    opacity: 0;
+    content:"¡Hecho!" ;
+}
+button:hover:after{
+  
+    opacity: 1;
+}
